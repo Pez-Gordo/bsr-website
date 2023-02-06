@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belfast Street Rollers</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul>
+                    <li onclick="intro()"><a href="#">Intro</a></li>
+                    <li onclick="gallery()"><a href="#">Gallery</a></li>
+                    <li onclick="spots()"><a href="#">Spots</a></li>
+                    <li onclick="enlaces()"><a href="#">Links</a></li>
+                </ul>
+            </nav>
+            <div class="header-text" id="intro">
+                <p>This group is a humble freeskate/freestyle/rollerdance collaborative, and free of charge, skate accademy. We meet every Friday 8pm at The Big Fish to go on a skate route if the weather allows it. We are passionate about urban freerides, slalom and dancing on our skates. Our rounds are adaptable to beginner skaters and we adjust the level to the abilities of the participants on the go. We enjoy making new friends. Join us!</p>
+            </div>
+            <div class="main-scroll-div" id="gallery">
+                <div>
+                    <button class="icon" onclick="scrolll()"><i class="fa fa-angle-double-right"></i></button>
+                </div>
+                <div class="cover">
+                    <div class="scroll-images">
+                        <div class="child"><img class="child-img" src="./images/1.jpg" alt=""></div>
+                        <div class="child"><img class="child-img" src="./images/2.jpg" alt=""></div>
+                        <div class="child"><img class="child-img" src="./images/3.jpg" alt=""></div>
+                        <div class="child"><img class="child-img" src="./images/4.jpg" alt=""></div>
+                        <div class="child"><img class="child-img" src="./images/5.jpg" alt=""></div>
+                        <div class="child"><img class="child-img" src="./images/6.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <button class="icon" onclick="scrollr()"><i class="fa fa-angle-double-left"></i></button>        
+                </div>
+    	    </div>
+            <!--<div class="gallery">
+                <div class="image">
+                   <img src="./images/[Sin nombre]7.jpg" alt="" width="480" height="380" >
+                </div>
+                <div class="image">
+                    <img src="./images/[Sin nombre]9.jpg" alt="" width="480" height="380" >
+                 </div>
+                 <div class="image">
+                    <img src="./images/bsr-logo.jpg" alt="" width="480" height="380" >
+                 </div>
+                 <div class="image">
+                    <img src="./images/20220715_222314796.jpg" alt="" width="480" height="380" >
+                 </div>
+                 <div class="image">
+                    <img src="./images/20220513_214349895.jpg" alt="" width="480" height="380" >
+                 </div>
+                 <div class="image">
+                    <img src="./images/04_IMG5266.jpg" alt="" width="480" height="380" >
+                 </div>
+            </div>-->
+            <div class="spots" id="spots">
+                <div>
+                    <ul>
+                        <li>Titanic Quarter</li>
+                        <li>Gasworks</li>
+                        <li>City center area</li>
+                        <li>CS Lewis sq</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="enlaces" id="enlaces">
+                <div>
+                    <a href="https://chat.whatsapp.com/EFPJk9FOHmz0rYkTPAVn1k" target="_blank">Whatsapp Chat</a>
+                    <br><br>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/groups/1881802448739029/" target="_blank">Facebook Group</a>
+                    <br><br>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/belfaststreetrollers/" target="_blank">Instagram Page</a>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>Contact Us:</h1><br>
+                    <div class="enlacesContact">
+                        <div>
+                            <a href="https://chat.whatsapp.com/EFPJk9FOHmz0rYkTPAVn1k" target="_blank">Whatsapp Chat</a>
+                             
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/groups/1881802448739029/" target="_blank">Facebook Group</a>
+                             
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/belfaststreetrollers/" target="_blank">Instagram Page</a>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Webs</li>
+                            <li><span>Rollers</span><br>Freeskate</li>
+                            <li><span>Slalom</span><br>Freestyle</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Webs</li>
+                            <li><span>Rollerssssssssss</span><br>Freeskate</li>
+                            <li><span>Slalom</span><br>Freestyle</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Webs</li>
+                            <li><span>Rollers</span><br>Freeskate</li>
+                            <li><span>Slalommmmmmmmmmm</span><br>Freestyle</li>
+                        </ul>
+                    </div>
+                -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+-->
+<script src="main.js"></script>
+</body>
+</html>
